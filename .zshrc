@@ -133,6 +133,14 @@ source $ZSH/oh-my-zsh.sh
 
 
 
+
+
+. "$HOME/.home/dotfiles/shell/.zsh/interactive"
+
+
+
+
+
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 __conda_setup="$('$HOME/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
@@ -149,9 +157,3 @@ unset __conda_setup
 # <<< conda initialize <<<
 
 conda deactivate && conda activate ml
-
-
-
-
-
-. "$HOME/.home/dotfiles/shell/.zsh/interactive"
