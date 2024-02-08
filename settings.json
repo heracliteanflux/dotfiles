@@ -4,4 +4,11 @@
     "terminal.external.osxExec": "iTerm2.app",
     "terminal.integrated.fontFamily": "MesloLGS NF",
     "github.copilot.advanced": {},
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+    "editor.tabSize": 2,
 }
